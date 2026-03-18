@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "woolplacer",
+  "version": "1.0.0",
+  "name": "WoolPlacer",
+  "description": "Автоматически ставит блоки шерсти под ногами игрока при ходьбе.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.woolplacer.WoolPlacerMod"],
+    "client": ["com.woolplacer.client.WoolPlacerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
